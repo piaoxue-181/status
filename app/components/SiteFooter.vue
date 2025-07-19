@@ -32,7 +32,7 @@
       </n-p>
       <n-p depth="3">
         Copyright &copy; 2020 - {{ new Date().getFullYear() }}
-        <n-text depth="3" @click="jumpLink(linkData.home)"> IMSYY </n-text>
+        <n-text depth="3" @click="jumpLink(linkData.home)"> MOYUCF </n-text>
         <n-text
           v-if="siteIcp"
           depth="3"
@@ -50,9 +50,9 @@ const { public: configPublic } = useRuntimeConfig();
 const { siteIcp, version } = configPublic;
 
 const linkData = {
-  github: "https://github.com/imsyy/site-status",
-  home: "https://www.imsyy.top",
-  email: "mailto:one@imsyy.top",
+  github: "https://github.com/piaoxue-181/status",
+  home: "https://www.blowswind.cn",
+  email: "mailto:admin@blowswind.cn",
 };
 </script>
 
