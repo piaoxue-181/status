@@ -27,7 +27,6 @@
       <n-back-top :visibility-height="10" />
     </n-scrollbar>
   </GlobalProvider>
-<script defer src="https://analytics.blowswind.cn/tracker.min.js" data-website-id="Hello-MoyucfStatus"></script>
 </template>
 
 <script setup lang="ts">
